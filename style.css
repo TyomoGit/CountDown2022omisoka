@@ -1,3 +1,7 @@
+body{
+    font-family: monospace;
+}
+
 h1 {
     color: white;
     padding: 5px;
@@ -6,7 +10,6 @@ h1 {
 
 #clock {
     font-size: 3em;
-    font-family: monospace;
 
     transition: 1s;
 }
