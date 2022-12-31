@@ -2,8 +2,8 @@ const clock = document.getElementById("clock")!;
 const countDown = document.getElementById("countDown")!;
 
 function loop(): void {
-    // const now = new Date();
-    const now = new Date(2023,1-1,1);
+    const now = new Date();
+    // const now = new Date(2023,1-1,1);
     const happyNewYear = new Date(2023,1-1,1,0,0,0,0);
     const hours = now.getHours().toString().padStart(2, "0");
     const minutes = now.getMinutes().toString().padStart(2, "0");
