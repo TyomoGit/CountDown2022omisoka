@@ -1,9 +1,9 @@
 :root{
-    --countdown-size: 5em;
+    --countdown-size: 5rem;
 }
 @media screen and (max-width:480px){
     :root {
-        --countdown-size: 3em;
+        --countdown-size: 3rem;
     }
 }
 
@@ -18,7 +18,7 @@ h1 {
 }
 
 #clock {
-    font-size: 3em;
+    font-size: 3rem;
 
     transition: 1s;
 }

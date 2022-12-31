@@ -8,7 +8,7 @@ function loop(): void {
     const minutes = now.getMinutes().toString().padStart(2, "0");
     const seconds = now.getSeconds().toString().padStart(2, "0");
     clock.innerHTML = `⏰${hours}:${minutes}:${seconds}`;
-    countDown.innerHTML = `<span style="font-size: 0.85em;">新年まであと</span><span style="font-weight: 900;">${Math.trunc(happyNewYear.getTime()/1000 - now.getTime()/1000)}</span>秒`;
+    countDown.innerHTML = `<span style="font-size: 2rem;">新年まであと</span><br><span style="font-weight: 900;">${Math.trunc(happyNewYear.getTime()/1000 - now.getTime()/1000)}</span>秒`;
     window.requestAnimationFrame(loop);
 }
 
