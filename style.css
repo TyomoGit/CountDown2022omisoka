@@ -1,0 +1,17 @@
+h1 {
+    color: white;
+    padding: 5px;
+    background: linear-gradient(to right, blue, rgb(202, 204, 234));
+}
+
+#clock {
+    font-size: 3em;
+    font-family: monospace;
+
+    transition: 1s;
+}
+
+#countDown {
+    font-size: 5em;
+    font-weight: 100;
+}
